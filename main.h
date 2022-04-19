@@ -21,10 +21,10 @@ int print_HEX(va_list arg);
 int print_STR(va_list arg);
 
 /**
- *  * struct identifierStruct - structure definition of a printTypeStruct
- *   * @indentifier: type
- *    * @printer: function to print
- *     */
+* struct identifierStruct - structure definition of a printTypeStruct
+* @indentifier: type
+* @printer: function to print
+*/
 typedef struct identifierStruct
 {
 	char *indentifier;
@@ -32,4 +32,3 @@ typedef struct identifierStruct
 } identifierStruct;
 
 #endif
-
